@@ -5,9 +5,9 @@
 #define DHTPIN D2
 #define DHTTYPE DHT11
 **/
-const char* ssid = "Moto G73";
-const char* password = "Rahil@30";
-const char* server_ip = "192.168.234.127";
+const char* ssid = "--Your SSID--";
+const char* password = "--Your Wifi Password--";
+const char* server_ip = "--Your Local IP Address(same as SPLDAEMON value in conf.json)--";
 const int server_port = 8080;
 const int sensorPin = D1;     // IR Obstacle Sensor output pin
 const int ledPin = D2;        // LED pin for obstacle indication
